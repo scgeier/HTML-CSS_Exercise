@@ -198,6 +198,7 @@ input:focus {
 
 .box-header {
     margin-top:15px;
+    margin-bottom:15px;
 }
 
 #task-box-title {
@@ -207,6 +208,7 @@ input:focus {
 #task-box-gear {
     display:inline-block;
     float:right;
+    padding-top:4%;
 }
 
 .blue-title {
@@ -235,6 +237,15 @@ input:focus {
     width:25px;
 }
 
+.task-circle a, .task-text a, .user-box a {
+  text-decoration:none;
+}
+
+.task-circle a:hover, .task-text a:hover, .user-box a:hover {
+  text-decoration:none;
+  color:#eeeeee;
+}
+
 .task-number {
     color:white;
     font-size:1.2em;
@@ -244,6 +255,7 @@ input:focus {
     font-size:1.1em;
     color:#2294ee;
 }
+
 
 .task-text-area {
     padding-left:16px;
