@@ -1,0 +1,233 @@
+      <div class="task-box-row"><!--TASK BOX ROW 1-->
+        <a href="#"><ul>
+         <li><div class="task-number-circle">
+                  <p class="task-number">1</p>
+                 </div></li>
+         <li><div class="task-text-area">
+                 <p class="task-text">Welcome Contacts</p>
+              </div></li>
+         <li><div class="task-user-box">
+              <div class="task-user-blue"></div>
+               <div class="task-user-number">
+                <p>32</p>
+               </div>
+              </div></li>
+        </ul></a>
+      </div>
+      
+      <div class="task-box-row"><!--TASK BOX ROW 2-->
+        <a href="#"><ul>
+         <li><div class="task-number-circle">
+                  <p class="task-number">2</p>
+                 </div></li>
+         <li><div class="task-text-area">
+                 <p class="task-text">Provide Responses</p>
+              </div></li>
+          <li><div class="task-user-box">
+              <div class="task-user-blue"></div>
+               <div class="task-user-number">
+                <p>36</p>
+               </div>
+              </div></li>
+        </ul></a>
+      </div>
+      
+         
+      <div class="task-box-row"><!--TASK BOX ROW 3-->
+        <a href="#"><ul>
+         <li><div class="task-number-circle">
+                  <p class="task-number">3</p>
+                 </div></li>
+         <li><div class="task-text-area">
+                 <p class="task-text">Review Activity</p>
+              </div></li>
+          <li><div class="task-user-box">
+             <div class="task-user-blue"></div>
+               <div class="task-user-number">
+                <p>36</p>
+               </div>
+              </div></li>
+        </ul></a>
+      </div>
+      
+      <div class="task-box-row"><!--TASK BOX ROW 4-->
+        <a href="#"><ul>
+         <li><div class="task-number-circle">
+                  <p class="task-number">4</p>
+                 </div></li>
+         <li><div class="task-text-area">
+                 <p class="task-text">Reach Out</p>
+              </div></li>
+          <li><div class="task-user-box">
+              <div class="task-user-blue"></div>
+               <div class="task-user-number">
+                <p>3</p>
+               </div>
+              </div></li>
+        </ul></a>
+      </div>
+      
+      .task-box-row {
+    border-bottom:1px solid #eeeeee;
+    text-align:left;
+    width: 100%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.task-box-row ul {
+    list-style-type:none;
+    padding:0;
+    margin:0;
+}
+
+.task-box-row ul li {
+    display:inline-block;
+    padding:5px;
+}
+
+.task-box-row a {
+     text-decoration:none;
+}
+
+.task-box-row a:hover {
+     color:gray;
+}
+
+TASK BOX AS TABLE (TR-TD):
+<div class="task-box-table"><!--TASK BOX TABLE-->
+        <table>
+          <tr><!--TABLE ROW 1-->
+           <td class="td-task-circle"><a href="#">
+              <div class="task-number-circle">
+                  <p class="task-number">1</p>
+                 </div></a></td>
+           <td class="td-task-text"><a href="#">
+            <div class="task-text-area">
+                 <p class="task-text">Welcome Contacts</p>
+              </div></a></td>
+           <td class="td-user-box"><a href="#">
+              <div class="task-user-box">
+               <div class="task-user-blue"></div>
+                <div class="task-user-number">
+                <p>32</p>
+               </div>
+              </div></a></td>
+        </tr>
+          
+          <tr><!--TABLE ROW 2-->
+           <td class="td-task-circle"><a href="#">
+              <div class="task-number-circle">
+                  <p class="task-number">2</p>
+                 </div></a></td>
+           <td class="td-task-text"><a href="#">
+            <div class="task-text-area">
+                 <p class="task-text">Provide Responses</p>
+              </div></a></td>
+           <td class="td-user-box"><a href="#">
+              <div class="task-user-box">
+               <div class="task-user-blue"></div>
+                <div class="task-user-number">
+                <p>36</p>
+               </div>
+              </div></a></td>
+        </tr>
+          <tr><!--TABLE ROW 3-->
+           <td class="td-task-circle"><a href="#">
+              <div class="task-number-circle">
+                  <p class="task-number">3</p>
+                 </div></a></td>
+           <td class="td-task-text"><a href="#">
+            <div class="task-text-area">
+                 <p class="task-text">Review Activity</p>
+              </div></a></td>
+           <td class="td-user-box"><a href="#">
+              <div class="task-user-box">
+               <div class="task-user-blue"></div>
+                <div class="task-user-number">
+                <p>36</p>
+               </div>
+              </div></a></td>
+        </tr>
+          
+          <tr><!--TABLE ROW 4-->
+           <td class="td-task-circle"><a href="#">
+              <div class="task-number-circle">
+                  <p class="task-number">4</p>
+                 </div></a></td>
+           <td class="td-task-text"><a href="#">
+            <div class="task-text-area">
+                 <p class="task-text">Reach Out</p>
+              </div></a></td>
+           <td class="td-user-box"><a href="#">
+              <div class="task-user-box">
+               <div class="task-user-blue"></div>
+                <div class="task-user-number">
+                <p>36</p>
+               </div>
+              </div></a></td>
+           </tr>
+    </table>
+    
+    
+table {
+   table-layout:fixed;
+   width:100%;
+}
+
+tr {
+    border-bottom:1px solid #eeeeee;
+    width:100%;
+    height:25%;
+}
+
+td {
+    padding:5px 0px 5px 0px;
+}
+
+.td-task-circle {
+    width:25px;
+    height:30px;
+}
+
+.td-task-text {
+    width:200px;
+    height:30px;
+    padding-left:5px;
+}
+
+.td-user-box {
+    width:50px;
+    height:auto;
+}
+
+.task-number-circle {
+    background-color:#33cc66;
+    border-radius:50%;
+    text-align:center;
+    width:25px;
+}
+
+.task-number {
+    color:white;
+    font-size:1.2em;
+}
+
+.task-text {
+    font-size:1.1em;
+    color:#2294ee;
+    margin-right:10px;
+}
+
+.task-user-box {
+    border:1px solid #eeeeee;
+    border-radius:5px;
+    height:25px;
+    width:50px;
+}
+
+.task-user-number {
+    color:#2294ee;
+    display:inline-block;
+    margin-right:2px;
+}

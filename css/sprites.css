@@ -1,0 +1,362 @@
+.questionmark, .settings, .search-button, .dashboard, .messages, .messages-active, .promotions, .promotions-active, .page-creator, .page-creator-active, .analytics, .analytics-active, .dashboard-active, .announcement-button-left, .announcement-button-right, .article-sprite, .checkmark-green, .lightbulb, .task-gear, .task-user-blue, .customers, .customers-active, .checkmark-orange, .green-man, .orange-man, .green-chart, .orange-chart, .flag-left, .flag-right, .orange-caret-left, .orange-caret-right, .green-bubbles, .group-photo, .orange-swirl, .blue-caret-up, .orange-caret-down, .facebook, .facebook-hover, .twitter, .twitter-hover, .foursquare, .foursquare-hover, .youtube, .youtube-hover, .marker, .navbar-smudge, .fade-left, .fade-right{
+	background: url(sprites.png) no-repeat;
+	display:inline-block;
+}
+
+.questionmark{
+	background-position: -29px -18px ;
+	width: 20px;
+	height: 20px;
+}
+
+.settings{
+	background-position: -67px -29px ;
+	width: 20px;
+	height: 20px;
+}
+
+.search-button{
+	background-position: -113px -14px ;
+	width: 23px;
+	height: 22px;
+}
+
+.dashboard-active:hover{
+	background-position: -151px -2px ;
+	width: 60px;
+	height: 73px;
+}
+
+.messages-active:hover{
+	background-position: -321px -5px ;
+	width: 60px;
+	height: 65px;
+}
+
+.messages-active{
+	background-position: -323px -100px ;
+	width: 60px;
+	height: 65px;
+}
+
+.promotions-active:hover{
+	background-position: -392px -2px ;
+	width: 60px;
+	height: 69px;
+}
+
+.promotions-active{
+	background-position: -397px -97px ;
+	width: 60px;
+	height: 69px;
+}
+
+.page-creator-active:hover{
+	background-position: -456px -3px ;
+	width: 57px;
+	height: 70px;
+}
+
+.page-creator-active{
+	background-position: -461px -97px ;
+	width: 57px;
+	height: 70px;
+}
+
+.analytics-active:hover{
+	background-position: -527px -6px ;
+	width: 60px;
+	height: 66px;
+}
+
+.analytics-active{
+	background-position: -528px -99px ;
+	width: 60px;
+	height: 66px;
+}
+
+.dashboard-active{
+	background-position: -153px -90px ;
+	width: 60px;
+	height: 73px;
+}
+
+.announcement-button-left{
+	background-position: -15px -66px ;
+	width: 22px;
+	height: 22px;
+	display:inline-block;
+	margin:0px 5px 3px 0px;
+}
+
+.announcement-button-right{
+	background-position: -64px -67px ;
+	width: 22px;
+	height: 22px;
+	display:inline-block;
+	margin:0px 0px 3px 5px;
+}
+
+.article-sprite{
+	background-position: -12px -114px ;
+	width: 31px;
+	height: 40px;
+}
+
+.checkmark-green{
+	background-position: -66px -115px ;
+	width: 22px;
+	height: 32px;
+}
+
+.lightbulb{
+	background-position: -14px -158px ;
+	width: 25px;
+	height: 39px;
+}
+
+.task-gear{
+	background-position: -66px -162px ;
+	width: 20px;
+	height: 20px;
+}
+
+.task-user-blue{
+	background-position: -114px -114px ;
+	width: 20px;
+	height: 20px;
+	display:inline-block;
+}
+
+.customers-active:hover{
+	background-position: -240px -8px ;
+	width: 62px;
+	height: 64px;
+}
+
+.customers-active{
+	background-position: -240px -96px ;
+	width: 62px;
+	height: 64px;
+}
+
+.checkmark-orange{
+	background-position: -115px -164px ;
+	width: 22px;
+	height: 21px;
+	position:absolute;
+	bottom:1px;
+	right:1px;
+}
+
+.green-man{
+	background-position: -152px -184px ;
+	width: 78px;
+	height: 82px;
+}
+
+.orange-man{
+	background-position: -244px -183px ;
+	width: 78px;
+	height: 82px;
+}
+
+.green-man, .orange-man{
+	position:absolute;
+	left:74px;
+	bottom:156px;
+}
+
+.green-chart{
+	background-position: -341px -183px ;
+	width: 192px;
+	height: 82px;
+}
+
+.orange-chart{
+	background-position: -342px -275px ;
+	width: 192px;
+	height: 82px;
+}
+
+.green-chart, .orange-chart {
+	margin:15px 0px 5px 15px;
+}
+
+.flag-left{
+	background-position: -15px -207px ;
+	width: 15px;
+	height: 40px;
+	display:inline-block;
+	position:absolute;
+	bottom:112px;
+	left:-14px
+}
+
+.flag-right{
+	background-position: -61px -207px ;
+	width: 15px;
+	height: 40px;
+	display:inline-block;
+	position:absolute;
+	bottom:112px;
+	left:218px;
+}
+
+.orange-caret-left{
+	background-position: -19px -268px ;
+	width: 11px;
+	height: 18px;
+	margin:15px 0px 0px 5px;
+}
+
+.orange-caret-right{
+	background-position: -70px -266px ;
+	width: 11px;
+	height: 18px;
+	margin:15px 0px 0px 10px;
+}
+
+.green-bubbles{
+	background-position: -9px -409px ;
+	width: 239px;
+	height: 150px;
+	position:absolute;
+	display:inline-block;
+	top:0px;
+	left:-1px;
+}
+
+.group-photo{
+	background-position: -230px -390px ;
+	width: 268px;
+	height: 171px;
+	position:absolute;
+	bottom:1px;
+}
+
+.orange-swirl{
+	background-position: -516px -399px ;
+	width: 225px;
+	height: 160px;
+	position:absolute;
+	right:-1px;
+	top:-1px;
+}
+
+.blue-caret-up{
+	background-position: -619px -25px ;
+	width: 14px;
+	height: 9px;
+	display:inline-block;
+	float:right;
+	margin:30px 5px 0px 0px;
+}
+
+.orange-caret-down{
+	background-position: -670px -27px ;
+	width: 10px;
+	height: 6px;
+}
+
+.facebook{
+	background-position: -618px -66px ;
+	width: 16px;
+	height: 16px;
+}
+
+.facebook:hover{
+	background-position: -667px -67px ;
+	width: 16px;
+	height: 16px;
+}
+
+.twitter{
+	background-position: -618px -117px ;
+	width: 16px;
+	height: 16px;
+}
+
+.twitter:hover{
+	background-position: -667px -118px ;
+	width: 16px;
+	height: 16px;
+}
+
+.foursquare{
+	background-position: -623px -166px ;
+	width: 16px;
+	height: 16px;
+}
+
+.foursquare:hover{
+	background-position: -665px -165px ;
+	width: 16px;
+	height: 16px;
+}
+
+.youtube{
+	background-position: -622px -214px ;
+	width: 16px;
+	height: 16px;
+}
+
+.youtube:hover{
+	background-position: -663px -214px ;
+	width: 16px;
+	height: 16px;
+}
+
+.marker{
+	background-position: -705px -25px ;
+	width: 40px;
+	height: 10px;
+	position:absolute;
+	top:92%;
+	left:30%;
+	z-index:2;
+}
+
+@media only screen and (max-width: 800px) {
+    .marker {
+        top:40%;
+		left:24%
+    }
+}
+
+.navbar-smudge{
+	background-position: -134.9965362548828px -753.9896240234375px ;
+	width: 927px;
+	height: 110px;
+	position:absolute;
+	z-index:0;
+	top:7px;
+	right:10%;
+}
+
+@media only screen and (max-width: 800px) {
+    .navbar-smudge {
+        top:52%;
+    }
+}
+
+.fade-left{
+	background-position: -27.000030517578125px -583.9896240234375px ;
+	width: 299px;
+	height: 110px;
+	position:absolute;
+}
+
+.fade-right{
+	background-position: -599.0000610351562px -584.9861297607422px ;
+	width: 298px;
+	height: 110px;
+	position:absolute;
+}
+
+@media only screen and (max-width: 800px) {
+    .fade-left, .fade-right {
+       display:none;
+    }
+}
+
