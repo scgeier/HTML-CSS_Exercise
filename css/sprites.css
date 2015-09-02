@@ -27,6 +27,13 @@
 	height: 73px;
 }
 
+@media only screen and (max-width: 800px) {
+    .dashboard-active, .dashboard-active:hover, .messages-active, .messages-active:hover, .promotions-active, .promotions-active:hover, .page-creator-active, .page-creator-active:hover, .customers-active, .customers-active:hover, .analytics-active, .analytics-active:hover
+{
+      zoom:0.7;
+    }
+}
+
 .messages-active:hover{
 	background-position: -321px -5px ;
 	width: 60px;
@@ -128,6 +135,18 @@
 	display:inline-block;
 }
 
+@media only screen and (max-width: 380px) {/*RESIZES THE "MAN" SPRITE FOR IPHONE*/
+	.task-user-blue {
+		zoom:0.9;
+	}
+}
+
+@media only screen and (max-width: 330px) {
+	.task-user-blue {
+		zoom:0.8;
+	}
+}
+
 .customers-active:hover{
 	background-position: -240px -8px ;
 	width: 62px;
@@ -203,6 +222,13 @@
 	left:218px;
 }
 
+
+@media only screen and (max-width: 320px) {
+	.flag-right {
+		left:215px;
+	}
+}
+
 .orange-caret-left{
 	background-position: -19px -268px ;
 	width: 11px;
@@ -235,6 +261,12 @@
 	bottom:1px;
 }
 
+@media only screen and (max-width: 330px) {
+	.group-photo {
+		zoom:80%;
+	}
+}
+
 .orange-swirl{
 	background-position: -516px -399px ;
 	width: 225px;
@@ -244,6 +276,7 @@
 	top:-1px;
 }
 
+
 .blue-caret-up{
 	background-position: -619px -25px ;
 	width: 14px;
@@ -252,6 +285,7 @@
 	float:right;
 	margin:30px 5px 0px 0px;
 }
+
 
 .orange-caret-down{
 	background-position: -670px -27px ;

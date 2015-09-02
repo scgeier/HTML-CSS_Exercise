@@ -38,8 +38,8 @@
 
   <div class="row">
     <div class="col-xs-12" id="nav-bar"><!--THIS IS THE DARK BLUE NAVBAR WITH SUBTLE GRAPHICS-->
-     <div class="navbar-smudge"></div>
-     <div class="fade-left"></div><!--ADD FADE RIGHT IF YOU EVER FIGURE OUT WHAT THE HELL IS GOING WRONG WITH IT-->
+    <div id="fade-left-pic"><img src="images/fade-left-pic.png" alt="fade left" /></div>
+     <div id="navbar-smudge-pic"><img src="images/navbar-smudge-pic.png" alt="smudge" /></div>
      <div id="nav-menu">
            <ul>
             <li><a href="#"><div class="dashboard-active"></div></a></li>
@@ -49,9 +49,10 @@
             <li><a href="#"><div class="page-creator-active"></div></a></li>
             <li><a href="#"><div class="analytics-active"></div></a></li>
            </ul>
-      </div>
-       <div class="marker"></div>
-      </div>
+     </div>
+     <div id="marker-pic"><img src="images/marker-pic.png" alt="marker" /></div>
+     <div id="fade-right-pic"><img src="images/fade-right-pic.png" alt="fade right" /></div>
+    </div>
      </div>
     </div>
   
@@ -70,7 +71,7 @@
                <div id="search-box">
                <div id="search-field">
                 <form>
-                  <input type="search" id="blank-search"></input>
+                  <input type="search" id="blank-search">
                 </form>
               </div>
              <div id="search-button">
@@ -95,8 +96,8 @@
         <p id="lorem-ipsum-text">Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sagittis lacus</p>
      </div>
      <div class="col-xs-12 col-md-1 content" id="announcement-buttons">
-       <div class="announcement-button-left"></div>
-       <div class="announcement-button-right"></div>
+       <a href="#"><div class="announcement-button-left"></div></a>
+       <a href="#"><div class="announcement-button-right"></div></a>
      </div>
     </div><!--close of announcements bar-->
   
@@ -114,19 +115,19 @@
         </div>
        </div>
     
-      <div class="row">
+      <div class="row task-box-row"><!--TASK BOX ROW 1-->
        <div class="col-xs-1 task-circle">
           <a href="#"><div class="task-number-circle">
                   <p class="task-number">1</p>
                  </div></a>
          </div>
-        <div class="col-xs-9 task-text">
+        <div class="col-xs-8 task-text">
            <a href="#">
             <div class="task-text-area">
                  <p class="task-text">Welcome Contacts</p>
               </div></a>
         </div>
-        <div class="col-xs-2 user-box">
+        <div class="col-xs-3 user-box">
            <a href="#">
               <div class="task-user-box">
                <div class="task-user-blue"></div>
@@ -138,19 +139,19 @@
       </div>
       
           
-    <div class="row">
+    <div class="row task-box-row">
        <div class="col-xs-1 task-circle">
           <a href="#"><div class="task-number-circle">
                   <p class="task-number">2</p>
                  </div></a>
          </div>
-        <div class="col-xs-9 task-text">
+        <div class="col-xs-8 task-text">
            <a href="#">
             <div class="task-text-area">
                  <p class="task-text">Provide Responses</p>
               </div></a>
         </div>
-        <div class="col-xs-2 user-box">
+        <div class="col-xs-3 user-box">
            <a href="#">
               <div class="task-user-box">
                <div class="task-user-blue"></div>
@@ -161,19 +162,19 @@
         </div>
     </div>
     
-        <div class="row">
+        <div class="row task-box-row">
        <div class="col-xs-1 task-circle">
           <a href="#"><div class="task-number-circle">
                   <p class="task-number">3</p>
                  </div></a>
          </div>
-        <div class="col-xs-9 task-text">
+        <div class="col-xs-8 task-text">
            <a href="#">
             <div class="task-text-area">
                  <p class="task-text">Review Activity</p>
               </div></a>
         </div>
-        <div class="col-xs-2 user-box">
+        <div class="col-xs-3 user-box">
            <a href="#">
               <div class="task-user-box">
                <div class="task-user-blue"></div>
@@ -184,19 +185,19 @@
         </div>
     </div>
         
-            <div class="row">
+            <div class="row task-box-row">
        <div class="col-xs-1 task-circle">
           <a href="#"><div class="task-number-circle">
                   <p class="task-number">4</p>
                  </div></a>
          </div>
-        <div class="col-xs-9 task-text">
+        <div class="col-xs-8 task-text">
            <a href="#">
             <div class="task-text-area">
                  <p class="task-text">Reach Out</p>
               </div></a>
         </div>
-        <div class="col-xs-2 user-box">
+        <div class="col-xs-3 user-box">
            <a href="#">
               <div class="task-user-box">
                <div class="task-user-blue"></div>
@@ -223,7 +224,7 @@
       </div>
      <div class="col-xs-10 rec-text">
         <a href="#">
-          <p class="rec-category-small-text"</p>Article</p>
+          <p class="rec-category-small-text">Article</p>
           <p class="rec-headline">7 Steps to Getting More Fans</p></a>
       </div>
     </div>
@@ -234,7 +235,7 @@
       </div>
      <div class="col-xs-10 rec-text">
         <a href="#">
-          <p class="rec-category-small-text"</p>Article</p>
+          <p class="rec-category-small-text">Article</p>
           <p class="rec-headline">Increase traction with more interactions</p></a>
       </div>
     </div>
@@ -245,7 +246,7 @@
       </div>
      <div class="col-xs-10 rec-text">
         <a href="#">
-          <p class="rec-category-small-text"</p>Checklist</p>
+          <p class="rec-category-small-text">Checklist</p>
           <p class="rec-headline">Creating a Promotion</p></a>
       </div>
     </div>
@@ -256,7 +257,7 @@
       </div>
      <div class="col-xs-10 rec-text">
         <a href="#">
-          <p class="rec-category-small-text"</p>Tip</p>
+          <p class="rec-category-small-text">Tip</p>
           <p class="rec-headline">Share More</p></a>
       </div>
     </div>
@@ -311,47 +312,41 @@
       </div><!--close of the inner 3 piechart box div-->
     </div><!--close of the internal 9-3 row-->
    
-     <div class="row">
+<div class="row">
       <div class="col-xs-12" id="graph-key"> <!--INNER 12 COL FOR GRAPH KEY-->
         <div id="graph-key-nav">
           <ul>
-            <li><div class="check-button-combo">
-                  <div class="checkbox">
-                   <div class="checkmark-orange"></div>
-                  </div>
-                  <div id="facebook-button">
+            <li>
+              <input type="checkbox" id="c1" name="cc" />
+               <label for="c1"><span></span><div id="facebook-button">
                     <p>Facebook</p>
-                  </div>
-            </div></li>
-             <li><div class="check-button-combo">
-                  <div class="checkbox">
-                   <div class="checkmark-orange"></div>
-                  </div>
-                  <div id="twitter-button">
+                  </div></label>
+              
+            </li>
+             <li>
+              <input type="checkbox" id="c2" name="cc" />
+               <label for="c2"><span></span><div id="twitter-button">
                     <p>Twitter</p>
-                  </div>
-            </div></li>
-              <li><div class="check-button-combo">
-                 <div class="checkbox">
-                    <div class="checkbox-gray"></div>
-                 </div>
-                  <div id="foursquare-button">
+                  </div></label>
+            </li>
+            <li>
+              <input type="checkbox" id="c3" name="cc" />
+               <label for="c3"><span></span><div id="foursquare-button">
                     <p>Foursquare</p>
-                  </div>
-            </div></li>
-               <li><div class="check-button-combo">
-                <div class="checkbox">
-                 <div class="checkbox-gray"></div>
-                </div>
-                  <div id="google-button">
+                  </div></label>
+              
+            </li>
+               <li>
+              <input type="checkbox" id="c4" name="cc" />
+               <label for="c4"><span></span><div id="google-button">
                     <p>Google+</p>
-                  </div>
-            </div></li>
+                  </div></label>
+            </li>
           </ul>
         </div>
       </div>
     </div><!--close of the inner 12 col graph key row-->
-
+    
     <div class="row"><!--start of the 6-6 row for the Contacts & Customers section-->
       <div class="col-xs-12 col-md-6" id="contacts-section"><!--CONTACTS SECTION-->
         <div class="contacts-box">
@@ -383,16 +378,16 @@
   <div class="row"><!--12 COL TRIVIA SECTION-->
     <div class="col-xs-12" id="trivia-section">
       <div id="trivia-box">
-        <div id="trivia-nav-box-left">
+        <a href="#"><div id="trivia-nav-box-left">
          <div class="orange-caret-left"></div>
-        </div>
+        </div></a>
         <div id="trivia-text-section">
          <p id="trivia-title">DID YOU KNOW?</p>
          <p id="trivia-text">Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta sem malesuada magna mollis euismod.</p>
         </div>
-        <div id="trivia-nav-box-right">
-         <div class="orange-caret-right"></div>
-        </div>
+        <a href="#"><div id="trivia-nav-box-right">
+        <div class="orange-caret-right"></div>
+        </div></a>
       </div>
     </div>
   </div><!--close of the trivia section-->
@@ -409,7 +404,7 @@
       <a href="#"><div class="promo-box">
         <div class="green-bubbles"></div>
         <div id="watch-text-area">
-          <p id="watch-title">Watch what</br> you say.</p>
+          <p id="watch-title">Watch what<br> you say.</p>
           <p id="watch-text-small">Message Management</p>
         </div>
       </div></a>
@@ -427,7 +422,7 @@
     <div class="col-xs-12 col-md-4 promo-area">
       <a href="#"><div class="promo-box">
         <div id="version-text-area">
-          <p id="version-text">Version 2.0</br>is coming.</p>
+          <p id="version-text">Version 2.0<br> is coming.</p>
         </div>
         <div class="orange-swirl"></div>
       </div></a>
@@ -457,7 +452,7 @@
         
         <div class="col-xs-12 col-md-5" id="footer-updates-section">
           <div id="footer-updates-text">
-            <p><a href="#">Ariel Winter</a> likes your <a href="#">Win A Cooper Sweepstakes</a> Promotion<p>
+            <p><a href="#">Ariel Winter</a> likes your <br><a href="#">Win A Cooper Sweepstakes</a> Promotion<p>
           </div>
           <a href="#"><div class="blue-caret-up"></div></a>
         </div>
